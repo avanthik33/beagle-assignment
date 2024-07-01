@@ -8,9 +8,12 @@ const LatestArrivals = () => {
   };
   return (
     <div>
-      <div className="container mt-5" style={{
-        marginBottom:"30px"
-      }}>
+      <div
+        className="container mt-5"
+        style={{
+          marginBottom: "30px",
+        }}
+      >
         <div className="row">
           <h1 className="mainHeading">OUR LATEST ARRIVALS</h1>
         </div>

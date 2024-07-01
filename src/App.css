@@ -1,29 +1,90 @@
+/* latestArrivals styles ----------------------------- */
+
 .mainHeading {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700; 
-  color: #42a5f5; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #42a5f5;
   font-size: 55px;
   text-align: center;
   margin: 20px 0;
   margin-bottom: 90px;
   margin-top: 60px;
-  /* line-height: 3em; */
 }
 .productTitle {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700; 
-  color: #333; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #333;
   font-size: 1.5em;
   margin: 10px 0;
   text-align: center;
 }
 
 .productPrice {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #888;
   font-size: 1em;
   margin: 5px 0;
   text-align: center;
-  margin-bottom:30px;
+  margin-bottom: 30px;
+}
+
+/* footer styles------------------------------ */
+
+.footerContainer {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  min-height: 500px;
+}
+.insideContainer {
+  padding: 40px 50px 30px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+}
+.footerHeader {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.emailButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  color: #ff6f61;
+  font-weight: 600;
+  margin: 20px 90px 10px 20px;
+  cursor: pointer;
+}
+.emailInput {
+  padding: 10px 20px;
+  width: 350px;
+  margin: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+}
+.footerSecondHeader{
+  font-weight: 700;
+}
+.paragraphStyle{
+  color: #f2eeee;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.playGround{
+  text-align: center;
+  justify-content: center;
+}
+
+
+/* home page styles ------------------------------*/
+
+.carousel{
+  height: 800px;
+  object-fit: cover;
 }

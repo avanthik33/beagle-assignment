@@ -28,7 +28,7 @@ const LatestArrivals = () => {
                     alt="img1"
                   />
                   <h4 className="productTitle">Toy Car</h4>
-                  <p className="productPrice">190$</p>
+                  <p className="productPrice">$190.60</p>
                 </div>
               </div>
               <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -39,7 +39,7 @@ const LatestArrivals = () => {
                     alt="img2"
                   />
                   <h4 className="productTitle">Spinner Toy</h4>
-                  <p className="productPrice">70$</p>
+                  <p className="productPrice">$70.05</p>
                 </div>
               </div>
               <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
@@ -50,7 +50,7 @@ const LatestArrivals = () => {
                     alt="img3"
                   />
                   <h4 className="productTitle">Dinosaur Toys</h4>
-                  <p className="productPrice">160$</p>
+                  <p className="productPrice">$160.00</p>
                 </div>
               </div>
             </div>

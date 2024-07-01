@@ -36,22 +36,22 @@ const HomePage = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492362701/665/492362701-5_2726.webp"
-                    className="d-block w-100"
+                    src={`${process.env.PUBLIC_URL}/images/c1.jpg`}
+                    className="d-block w-100 carousel"
                     alt="image1"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492362701/665/492362701-7_3696.webp"
-                    className="d-block w-100"
+                    src={`${process.env.PUBLIC_URL}/images/c2.jpg`}
+                    className="d-block w-100 carousel"
                     alt="image2"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492362701/665/492362701-6_1990.webp"
-                    className="d-block w-100"
+                    src={`${process.env.PUBLIC_URL}/images/c3.jpg`}
+                    className="d-block w-100 carousel"
                     alt="image3"
                   />
                 </div>

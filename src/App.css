@@ -1,29 +1,203 @@
+/* latestArrivals styles ----------------------------- */
+
 .mainHeading {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700; 
-  color: #42a5f5; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #42a5f5;
   font-size: 55px;
   text-align: center;
   margin: 20px 0;
   margin-bottom: 90px;
   margin-top: 60px;
-  /* line-height: 3em; */
 }
 .productTitle {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700; 
-  color: #333; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #333;
   font-size: 1.5em;
   margin: 10px 0;
   text-align: center;
 }
 
 .productPrice {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #888;
   font-size: 1em;
   margin: 5px 0;
   text-align: center;
-  margin-bottom:30px;
+  margin-bottom: 30px;
+}
+
+/* footer styles------------------------------ */
+
+.footerContainer {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  min-height: 500px;
+}
+.insideContainer {
+  padding: 40px 50px 30px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px;
+}
+.footerHeader {
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.emailButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+  color: #ff6f61;
+  font-weight: 600;
+  margin: 20px 90px 10px 20px;
+  cursor: pointer;
+}
+.emailInput {
+  padding: 10px 20px;
+  width: 350px;
+  margin: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+}
+.footerSecondHeader {
+  font-weight: 700;
+}
+.paragraphStyle {
+  color: #f2eeee;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.playGround {
+  text-align: center;
+  justify-content: center;
+}
+
+/* home page styles ------------------------------*/
+
+.carousel {
+  height: 800px;
+  object-fit: cover;
+}
+.sideImages {
+  height: 390px;
+  object-fit: cover;
+}
+
+/* navbar component css  ------------------------------*/
+
+.navbarContainer {
+  margin-bottom: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo,
+.brand-logo-alt {
+  font-family: "Arial", sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-right: 0.1em;
+  color: #333;
+}
+
+.brand-logo-alt:nth-child(2) {
+  color: #42a5f5;
+}
+
+.brand-logo-alt:nth-child(3) {
+  color: #ff5733;
+}
+
+.navbar-links,
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a,
+.navbar-icons a {
+  margin: 0 10px;
+  color: #888;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+}
+
+.navbar-links a:hover,
+.navbar-icons a:hover {
+  color: #ce0f0f;
+}
+
+.navbar-icons .icon {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icons .icon i {
+  margin-right: 20px;
+}
+
+.navbar-icons .icon span {
+  background-color: #ffd700;
+  border-radius: 50%;
+  padding: 7px;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.menu-toggle i {
+  color: #888;
+}
+@media (max-width: 991px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links,
+  .navbar-icons {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-links.active,
+  .navbar-icons.active {
+    display: flex;
+  }
+
+  .navbar-links a,
+  .navbar-icons a {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }

@@ -85,13 +85,15 @@ const HomePage = () => {
           <div className="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
             <div className="row mb-4">
               <img
-                src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492362701/665/492362701-6_1990.webp"
+                className="sideImages"
+                src={`${process.env.PUBLIC_URL}/images/b1.jpg`}
                 alt="image1"
               />
             </div>
             <div className="row">
               <img
-                src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492362701/665/492362701-6_1990.webp"
+                className="sideImages"
+                src={`${process.env.PUBLIC_URL}/images/b2.jpg`}
                 alt="image2"
               />
             </div>
@@ -107,7 +109,7 @@ const HomePage = () => {
                 style={{
                   height: "500px",
                 }}
-                src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492362701/665/492362701-6_1990.webp"
+                src={`${process.env.PUBLIC_URL}/images/b2.jpg`}
                 alt="image2"
               />
             </div>
@@ -118,7 +120,7 @@ const HomePage = () => {
                 style={{
                   height: "500px",
                 }}
-                src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492362701/665/492362701-6_1990.webp"
+                src={`${process.env.PUBLIC_URL}/images/b1.jpg`}
                 alt="image2"
               />
             </div>
